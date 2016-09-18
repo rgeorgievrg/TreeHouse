@@ -18,3 +18,17 @@
 3. There is no hard limit on line length, but soft limit must be 120 characters, and lines should be
    80 characters or less
 4. There must be one blank line after the name-space declaration and after block of use declarations
+5. Opening and closing braces {also called curly brackets*} for classes,methods must go on the next line
+6. Visibility must be declared on all properties and methods.
+7. Abstract and final must be declared before the visibility
+8. Static must be declared after the visibility.
+9. Control structure keywords(if,else,switch,do,while,foreach) must have one space after them(before opening brace)
+10. Method and function call must not have space after them
+11. Opening braces for control structures must go on the same line and closing braces must go on the next line
+12. Opening parenthesis for control structures must not have space after them
+13. Closing parenthesis for control structures must not have space before them
+
+
+*Brackets include round brackets/parentheses, square brackets, curly brackets, angle brackets,
+and various other pairs of symbols. In addition to referring to the class of all types of brackets,
+the unqualified word bracket is most commonly used to refer to a specific type of bracket.

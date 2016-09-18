@@ -8,11 +8,10 @@
 
 namespace Revasion;
 
-
 class Tag
 {
     private $test;
-    const OPALA="opala";
+    const OPALA = "opala";
 
     public function shoTag()
     {
@@ -21,8 +20,8 @@ class Tag
 
     public function count()
     {
-       for ($i=0;$i<1000;$i++){
-           echo $i;
-       }
+        for ($i = 0; $i < 1000; $i++) {
+            echo $i;
+        }
     }
 }
