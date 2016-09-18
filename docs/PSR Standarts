@@ -1,0 +1,20 @@
+<<<<<PSR-1>>>>>
+
+1. Long tags(<?php ?>) and short echo tags(<?= ?>)!
+2. Character encoding of files must be UTF-8
+3. PHP files should
+     -declare classes, functions, constants, etc.
+     OR
+     -should execute logic with side effects(generating output, explicit use of require or include,
+     connecting to external services, modifying ini settings, emmiting errors or execptions, modifying
+     global or static variables, reading from or writing to a file, and so on)
+4. Namespaces and Classes must follow PSR-0 or PSR-4 - use studly caps(captital letter for each new word)
+5. Methods need to use camel case
+
+<<<<<PSR-2>>>>>
+
+1. To be PSR2 compliant, you also have to follow the rules in PSR1
+2. Code must use four spaces for indenting not tabs
+3. There is no hard limit on line length, but soft limit must be 120 characters, and lines should be
+   80 characters or less
+4. There must be one blank line after the name-space declaration and after block of use declarations
