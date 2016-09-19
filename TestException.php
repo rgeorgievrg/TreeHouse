@@ -14,4 +14,24 @@ ini_set("display_errors", 1);
 //    echo 'Caught exception: ', $e->getMessage(), "\n";
 //}
 
-echo PHP_RELEASE_VERSION;
+//echo PHP_RELEASE_VERSION;
+
+set_error_handler(function($errno, $errstr, $errfile, $errline){
+   throw new ErrorException($errstr, 0,$errno, $errfile, $errline);
+});
+
+
+$a='12';
+switch ($a) {
+    case '1':
+        echo "Is one<br>";
+        break;
+    case '2':
+        echo "Is two<br>";
+        break;
+    default:
+        echo "Is default";
+
+}
+$a=2/0;
+echo $a;

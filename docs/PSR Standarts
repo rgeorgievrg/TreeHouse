@@ -32,3 +32,15 @@
 *Brackets include round brackets/parentheses, square brackets, curly brackets, angle brackets,
 and various other pairs of symbols. In addition to referring to the class of all types of brackets,
 the unqualified word bracket is most commonly used to refer to a specific type of bracket.
+
+<<<<<PSR-3>>>>> was developed to standardize the interfaces for basic logging interactions
+1.The LoggerInterface exposes eight methods to write logs to the eight RFC 5424 levels:
+
+Emergency – the system is unusable
+Alert – immediate action is required
+Critical – critical conditions
+Error – errors that do not require immediate attention but should be monitored
+Warning – unusual or undesirable occurrences that are not errors
+Notice – normal but significant events
+Info – interesting events
+Debug – detailed information for debugging purposes
