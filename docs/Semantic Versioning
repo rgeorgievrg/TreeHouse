@@ -2,7 +2,7 @@ Example: Version 2.3.4
 
 2 -> The first is the major number(Making backwards incompatible changes also called breaking changes)
 3 -> The second is the minor number(Making backwards compatible changes)
-4 -> The last is the patch(Bug fixes, filling in security holes, and potentially performace improvements)
+4 -> The last is the patch or release(Bug fixes, filling in security holes, and potentially performace improvements)
 
 More commonly, developpers version their inital release as 0.1.0(1.0 is bad idea, because there are too many changes in beginning).
 The leading zero means that package is in initial development and the API is not 100% stable. It will never contain a breaking change in a patch release,
